@@ -1,0 +1,16 @@
+v = input('Digite algo: ')
+print(type(v))
+print('Está em minusculo?  ', (v.islower()))
+print('É um número? ', (v.isnumeric()))
+print('É alfanumérico? ', (v.isalnum()))
+print('É alfabético? ', (v.isalpha()))
+print('Verificação do valor scii ', (v.isascii()))
+print('Verificação do valor decimal ', (v.isdecimal()))
+print('Verificação do valor digit ', (v.isdigit()))
+print('Verificação do valor identifier ', (v.isidentifier()))
+print('Verificação do valor printable ', (v.isprintable()))
+print('Só tem espaços?  ', (v.isspace()))
+print('Está capitalizada? ', (v.istitle()))
+print('Está em maiusculo? ', (v.isupper()))
+
+
